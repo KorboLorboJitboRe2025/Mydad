@@ -1,0 +1,6 @@
+# Run training pipeline
+python training/train_ner.py \
+  --data_dir training/conll2003 \
+  --model_dir app/model \
+  --epochs 30 \
+  --lr 0.001
