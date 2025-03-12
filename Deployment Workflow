@@ -1,0 +1,6 @@
+graph TD
+    A[Dataset Preparation] --> B[Model Training]
+    B --> C[API Development]
+    C --> D[Docker Packaging]
+    D --> E[Cloud Deployment]
+    E --> F[Testing & Validation]
