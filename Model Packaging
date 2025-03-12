@@ -1,0 +1,3 @@
+# Compress model for submission
+cd app/model
+zip -r ../model.zip .
