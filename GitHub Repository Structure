@@ -1,0 +1,33 @@
+ner-submission/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py              # FastAPI core (with rate limiting)
+│   ├── requirements.txt     # Production dependencies
+│   └── model/               # Trained model files
+│       ├── meta.json        # spaCy model metadata
+│       ├── tokenizer        # Model components
+│       └── ner              
+│
+├── training/
+│   ├── train_ner.py         # Training script
+│   ├── requirements.txt     # Dev dependencies
+│   ├── conll2003/           # Dataset
+│   └── EDA.ipynb            # Jupyter Notebook with EDA
+│
+├── docker/
+│   ├── Dockerfile           # Production container
+│   └── docker-compose.yml   # Optional compose setup
+│
+├── tests/
+│   ├── test_api.ps1         # PowerShell tests
+│   └── test_api.py          # Python unit tests
+│
+├── frontend/                # Bonus Streamlit UI
+│   ├── app.py
+│   └── requirements.txt
+│
+├── .gitignore
+├── LICENSE
+├── README.md                # Comprehensive guide
+└── report.pdf               # Brief technical report
