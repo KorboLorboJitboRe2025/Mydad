@@ -1,0 +1,9 @@
+# Create .gitignore
+@"
+**/__pycache__
+*.pyc
+*.pkl
+*.joblib
+.env
+venv/
+"@ | Out-File .gitignore
