@@ -1,0 +1,2 @@
+kaggle datasets download -d abhinavwalia95/entity-annotated-corpus
+unzip entity-annotated-corpus.zip -d training/conll2003
